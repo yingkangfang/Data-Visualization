@@ -1,0 +1,289 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,Number,Level
+1,死亡,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S,1,men
+2,生存,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C,1,women
+4,生存,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,113803,53.1,C123,S,1,women
+5,死亡,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S,1,men
+13,死亡,3,"Saundercock, Mr. William Henry",male,20,0,0,A/5. 2151,8.05,,S,1,men
+14,死亡,3,"Andersson, Mr. Anders Johan",male,39,1,5,347082,31.275,,S,1,men
+38,死亡,3,"Cann, Mr. Ernest Charles",male,21,0,0,A./5. 2152,8.05,,S,1,men
+52,死亡,3,"Nosworthy, Mr. Richard Cater",male,21,0,0,A/4. 39886,7.8,,S,1,men
+53,生存,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,1,0,PC 17572,76.7292,D33,C,1,women
+58,死亡,3,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,C,1,men
+61,死亡,3,"Sirayanian, Mr. Orsen",male,22,0,0,2669,7.2292,,C,1,men
+62,生存,1,"Icard, Miss. Amelie",female,38,0,0,113572,80,B28,,1,women
+68,死亡,3,"Crease, Mr. Ernest James",male,19,0,0,S.P. 3464,8.1583,,S,1,men
+70,死亡,3,"Kink, Mr. Vincenz",male,26,2,0,315151,8.6625,,S,1,men
+74,死亡,3,"Chronopoulos, Mr. Apostolos",male,26,1,0,2680,14.4542,,C,1,men
+75,生存,3,"Bing, Mr. Lee",male,32,0,0,1601,56.4958,,S,1,men
+76,死亡,3,"Moen, Mr. Sigurd Hansen",male,25,0,0,348123,7.65,F G73,S,1,men
+81,死亡,3,"Waelens, Mr. Achille",male,22,0,0,345767,9,,S,1,men
+82,生存,3,"Sheerlinck, Mr. Jan Baptist",male,29,0,0,345779,9.5,,S,1,men
+87,死亡,3,"Ford, Mr. William Neal",male,16,1,3,W./C. 6608,34.375,,S,1,men
+89,生存,1,"Fortune, Miss. Mabel Helen",female,23,3,2,19950,263,C23 C25 C27,S,1,women
+90,死亡,3,"Celotti, Mr. Francesco",male,24,0,0,343275,8.05,,S,1,men
+91,死亡,3,"Christmann, Mr. Emil",male,29,0,0,343276,8.05,,S,1,men
+92,死亡,3,"Andreasson, Mr. Paul Edvin",male,20,0,0,347466,7.8542,,S,1,men
+94,死亡,3,"Dean, Mr. Bertram Frank",male,26,1,2,C.A. 2315,20.575,,S,1,men
+104,死亡,3,"Johansson, Mr. Gustaf Joel",male,33,0,0,7540,8.6542,,S,1,men
+105,死亡,3,"Gustafsson, Mr. Anders Vilhelm",male,37,2,0,3101276,7.925,,S,1,men
+106,死亡,3,"Mionoff, Mr. Stoytcho",male,28,0,0,349207,7.8958,,S,1,men
+109,死亡,3,"Rekic, Mr. Tido",male,38,0,0,349249,7.8958,,S,1,men
+113,死亡,3,"Barton, Mr. David John",male,22,0,0,324669,8.05,,S,1,men
+116,死亡,3,"Pekoniemi, Mr. Edvard",male,21,0,0,STON/O 2. 3101294,7.925,,S,1,men
+126,生存,3,"Nicola-Yarred, Master. Elias",male,12,1,0,2651,11.2417,,C,1,men
+128,生存,3,"Madsen, Mr. Fridtjof Arne",male,24,0,0,C 17369,7.1417,,S,1,men
+130,死亡,3,"Ekstrom, Mr. Johan",male,45,0,0,347061,6.975,,S,1,men
+131,死亡,3,"Drazenoic, Mr. Jozef",male,33,0,0,349241,7.8958,,C,1,men
+132,死亡,3,"Coelho, Mr. Domingos Fernandeo",male,20,0,0,SOTON/O.Q. 3101307,7.05,,S,1,men
+137,生存,1,"Newsom, Miss. Helen Monypeny",female,19,0,2,11752,26.2833,D47,S,1,women
+139,死亡,3,"Osen, Mr. Olaf Elon",male,16,0,0,7534,9.2167,,S,1,men
+144,死亡,3,"Burke, Mr. Jeremiah",male,19,0,0,365222,6.75,,Q,1,men
+147,生存,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,0,0,350043,7.7958,,S,1,men
+152,生存,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,1,0,113776,66.6,C2,S,1,women
+154,死亡,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,S,1,men
+158,死亡,3,"Corn, Mr. Harry",male,30,0,0,SOTON/OQ 392090,8.05,,S,1,men
+161,死亡,3,"Cribb, Mr. John Hatfield",male,44,0,1,371362,16.1,,S,1,men
+163,死亡,3,"Bengtsson, Mr. John Viktor",male,26,0,0,347068,7.775,,S,1,men
+164,死亡,3,"Calic, Mr. Jovo",male,17,0,0,315093,8.6625,,S,1,men
+170,死亡,3,"Ling, Mr. Lee",male,28,0,0,1601,56.4958,,S,1,men
+174,死亡,3,"Sivola, Mr. Antti Wilhelm",male,21,0,0,STON/O 2. 3101280,7.925,,S,1,men
+176,死亡,3,"Klasen, Mr. Klas Albin",male,18,1,1,350404,7.8542,,S,1,men
+180,死亡,3,"Leonard, Mr. Lionel",male,36,0,0,LINE,0,,S,1,men
+189,死亡,3,"Bourke, Mr. John",male,40,1,1,364849,15.5,,Q,1,men
+190,死亡,3,"Turcin, Mr. Stjepan",male,36,0,0,349247,7.8958,,S,1,men
+195,生存,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,0,PC 17610,27.7208,B4,C,1,women
+198,死亡,3,"Olsen, Mr. Karl Siegwart Andreas",male,42,0,1,4579,8.4042,,S,1,men
+201,死亡,3,"Vande Walle, Mr. Nestor Cyriel",male,28,0,0,345770,9.5,,S,1,men
+203,死亡,3,"Johanson, Mr. Jakob Alfred",male,34,0,0,3101264,6.4958,,S,1,men
+204,死亡,3,"Youseff, Mr. Gerious",male,45.5,0,0,2628,7.225,,C,1,men
+205,生存,3,"Cohen, Mr. Gurshon ""Gus""",male,18,0,0,A/5 3540,8.05,,S,1,men
+207,死亡,3,"Backstrom, Mr. Karl Alfred",male,32,1,0,3101278,15.85,,S,1,men
+208,生存,3,"Albimona, Mr. Nassef Cassem",male,26,0,0,2699,18.7875,,C,1,men
+211,死亡,3,"Ali, Mr. Ahmed",male,24,0,0,SOTON/O.Q. 3101311,7.05,,S,1,men
+213,死亡,3,"Perkin, Mr. John Henry",male,22,0,0,A/5 21174,7.25,,S,1,men
+216,生存,1,"Newell, Miss. Madeleine",female,31,1,0,35273,113.275,D36,C,1,women
+219,生存,1,"Bazzani, Miss. Albina",female,32,0,0,11813,76.2917,D15,C,1,women
+221,生存,3,"Sunderland, Mr. Victor Francis",male,16,0,0,SOTON/OQ 392089,8.05,,S,1,men
+226,死亡,3,"Berglund, Mr. Karl Ivar Sven",male,22,0,0,PP 4348,9.35,,S,1,men
+228,死亡,3,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,A/5 21173,7.25,,S,1,men
+231,生存,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,1,0,36973,83.475,C83,S,1,women
+232,死亡,3,"Larsson, Mr. Bengt Edvin",male,29,0,0,347067,7.775,,S,1,men
+244,死亡,3,"Maenpaa, Mr. Matti Alexanteri",male,22,0,0,STON/O 2. 3101275,7.125,,S,1,men
+245,死亡,3,"Attalah, Mr. Sleiman",male,30,0,0,2694,7.225,,C,1,men
+254,死亡,3,"Lobb, Mr. William Arthur",male,30,1,0,A/5. 3336,16.1,,S,1,men
+258,生存,1,"Cherry, Miss. Gladys",female,30,0,0,110152,86.5,B77,S,1,women
+259,生存,1,"Ward, Miss. Anna",female,35,0,0,PC 17755,512.3292,,C,1,women
+267,死亡,3,"Panula, Mr. Ernesti Arvid",male,16,4,1,3101295,39.6875,,S,1,men
+268,生存,3,"Persson, Mr. Ernst Ulrik",male,25,1,0,347083,7.775,,S,1,men
+270,生存,1,"Bissette, Miss. Amelia",female,35,0,0,PC 17760,135.6333,C99,S,1,women
+272,生存,3,"Tornquist, Mr. William Henry",male,25,0,0,LINE,0,,S,1,men
+282,死亡,3,"Olsson, Mr. Nils Johan Goransson",male,28,0,0,347464,7.8542,,S,1,men
+283,死亡,3,"de Pelsmaeker, Mr. Alfons",male,16,0,0,345778,9.5,,S,1,men
+284,生存,3,"Dorking, Mr. Edward Arthur",male,19,0,0,A/5. 10482,8.05,,S,1,men
+286,死亡,3,"Stankovic, Mr. Ivan",male,33,0,0,349239,8.6625,,C,1,men
+287,生存,3,"de Mulder, Mr. Theodore",male,30,0,0,345774,9.5,,S,1,men
+288,死亡,3,"Naidenoff, Mr. Penko",male,22,0,0,349206,7.8958,,S,1,men
+291,生存,1,"Barber, Miss. Ellen ""Nellie""",female,26,0,0,19877,78.85,,S,1,women
+292,生存,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,1,0,11967,91.0792,B49,C,1,women
+295,死亡,3,"Mineff, Mr. Ivan",male,24,0,0,349233,7.8958,,S,1,men
+297,死亡,3,"Hanna, Mr. Mansour",male,23.5,0,0,2693,7.2292,,C,1,men
+303,死亡,3,"Johnson, Mr. William Cahoone Jr",male,19,0,0,LINE,0,,S,1,men
+308,生存,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,1,0,PC 17758,108.9,C65,C,1,women
+310,生存,1,"Francatelli, Miss. Laura Mabel",female,30,0,0,PC 17485,56.9292,E36,C,1,women
+311,生存,1,"Hays, Miss. Margaret Bechstein",female,24,0,0,11767,83.1583,C54,C,1,women
+312,生存,1,"Ryerson, Miss. Emily Borie",female,18,2,2,PC 17608,262.375,B57 B59 B63 B66,C,1,women
+314,死亡,3,"Hendekovic, Mr. Ignjac",male,28,0,0,349243,7.8958,,S,1,men
+319,生存,1,"Wick, Miss. Mary Natalie",female,31,0,2,36928,164.8667,C7,S,1,women
+320,生存,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,1,1,16966,134.5,E34,C,1,women
+321,死亡,3,"Dennis, Mr. Samuel",male,22,0,0,A/5 21172,7.25,,S,1,men
+322,死亡,3,"Danoff, Mr. Yoto",male,27,0,0,349219,7.8958,,S,1,men
+326,生存,1,"Young, Miss. Marie Grice",female,36,0,0,PC 17760,135.6333,C32,C,1,women
+330,生存,1,"Hippach, Miss. Jean Gertrude",female,16,0,1,111361,57.9792,B18,C,1,women
+334,死亡,3,"Vander Planke, Mr. Leo Edmondus",male,16,2,0,345764,18,,S,1,men
+338,生存,1,"Burns, Miss. Elizabeth Margaret",female,41,0,0,16966,134.5,E40,C,1,women
+339,生存,3,"Dahl, Mr. Karl Edwart",male,45,0,0,7598,8.05,,S,1,men
+342,生存,1,"Fortune, Miss. Alice Elizabeth",female,24,3,2,19950,263,C23 C25 C27,S,1,women
+350,死亡,3,"Dimic, Mr. Jovan",male,42,0,0,315088,8.6625,,S,1,men
+351,死亡,3,"Odahl, Mr. Nils Martin",male,23,0,0,7267,9.225,,S,1,men
+353,死亡,3,"Elias, Mr. Tannous",male,15,1,1,2695,7.2292,,C,1,men
+354,死亡,3,"Arnold-Franchi, Mr. Josef",male,25,1,0,349237,17.8,,S,1,men
+356,死亡,3,"Vanden Steen, Mr. Leo Peter",male,28,0,0,345783,9.5,,S,1,men
+357,生存,1,"Bowerman, Miss. Elsie Edith",female,22,0,1,113505,55,E33,S,1,women
+361,死亡,3,"Skoog, Mr. Wilhelm",male,40,1,4,347088,27.9,,S,1,men
+364,死亡,3,"Asim, Mr. Adola",male,35,0,0,SOTON/O.Q. 3101310,7.05,,S,1,men
+366,死亡,3,"Adahl, Mr. Mauritz Nils Martin",male,30,0,0,C 7076,7.25,,S,1,men
+370,生存,1,"Aubart, Mme. Leontine Pauline",female,24,0,0,PC 17477,69.3,B35,C,1,women
+372,死亡,3,"Wiklund, Mr. Jakob Alfred",male,18,1,0,3101267,6.4958,,S,1,men
+373,死亡,3,"Beavan, Mr. William Thomas",male,19,0,0,323951,8.05,,S,1,men
+379,死亡,3,"Betros, Mr. Tannous",male,20,0,0,2648,4.0125,,C,1,men
+380,死亡,3,"Gustafsson, Mr. Karl Gideon",male,19,0,0,347069,7.775,,S,1,men
+381,生存,1,"Bidois, Miss. Rosalie",female,42,0,0,PC 17757,227.525,,C,1,women
+383,死亡,3,"Tikkanen, Mr. Juho",male,32,0,0,STON/O 2. 3101293,7.925,,S,1,men
+384,生存,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,1,0,113789,52,,S,1,women
+392,生存,3,"Jansson, Mr. Carl Olof",male,21,0,0,350034,7.7958,,S,1,men
+393,死亡,3,"Gustafsson, Mr. Johan Birger",male,28,2,0,3101277,7.925,,S,1,men
+394,生存,1,"Newell, Miss. Marjorie",female,23,1,0,35273,113.275,D36,C,1,women
+396,死亡,3,"Johansson, Mr. Erik",male,22,0,0,350052,7.7958,,S,1,men
+401,生存,3,"Niskanen, Mr. Juha",male,39,0,0,STON/O 2. 3101289,7.925,,S,1,men
+402,死亡,3,"Adams, Mr. John",male,26,0,0,341826,8.05,,S,1,men
+404,死亡,3,"Hakkarainen, Mr. Pekka Pietari",male,28,1,0,STON/O2. 3101279,15.85,,S,1,men
+409,死亡,3,"Birkeland, Mr. Hans Martin Monsen",male,21,0,0,312992,7.775,,S,1,men
+413,生存,1,"Minahan, Miss. Daisy E",female,33,1,0,19928,90,C78,Q,1,women
+415,生存,3,"Sundman, Mr. Johan Julian",male,44,0,0,STON/O 2. 3101269,7.925,,S,1,men
+422,死亡,3,"Charters, Mr. David",male,21,0,0,A/5. 13032,7.7333,,Q,1,men
+423,死亡,3,"Zimmerman, Mr. Leo",male,29,0,0,315082,7.875,,S,1,men
+425,死亡,3,"Rosblom, Mr. Viktor Richard",male,18,1,1,370129,20.2125,,S,1,men
+430,生存,3,"Pickard, Mr. Berk (Berk Trembisky)",male,32,0,0,SOTON/O.Q. 392078,8.05,E10,S,1,men
+434,死亡,3,"Kallio, Mr. Nikolai Erland",male,17,0,0,STON/O 2. 3101274,7.125,,S,1,men
+436,生存,1,"Carter, Miss. Lucile Polk",female,14,1,2,113760,120,B96 B98,S,1,women
+442,死亡,3,"Hampe, Mr. Leon",male,20,0,0,345769,9.5,,S,1,men
+443,死亡,3,"Petterson, Mr. Johan Emil",male,25,1,0,347076,7.775,,S,1,men
+456,生存,3,"Jalsevac, Mr. Ivan",male,29,0,0,349240,7.8958,,C,1,men
+462,死亡,3,"Morley, Mr. William",male,34,0,0,364506,8.05,,S,1,men
+466,死亡,3,"Goncalves, Mr. Manuel Estanslas",male,38,0,0,SOTON/O.Q. 3101306,7.05,,S,1,men
+472,死亡,3,"Cacic, Mr. Luka",male,38,0,0,315089,8.6625,,S,1,men
+478,死亡,3,"Braund, Mr. Lewis Richard",male,29,1,0,3460,7.0458,,S,1,men
+479,死亡,3,"Karlsson, Mr. Nils August",male,22,0,0,350060,7.5208,,S,1,men
+487,生存,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,1,0,19943,90,C93,S,1,women
+489,死亡,3,"Somerton, Mr. Francis William",male,30,0,0,A.5. 18509,8.05,,S,1,men
+492,死亡,3,"Windelov, Mr. Einar",male,21,0,0,SOTON/OQ 3101317,7.25,,S,1,men
+495,死亡,3,"Stanley, Mr. Edward Roland",male,21,0,0,A/4 45380,8.05,,S,1,men
+499,死亡,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,1,2,113781,151.55,C22 C26,S,1,women
+500,死亡,3,"Svensson, Mr. Olof",male,24,0,0,350035,7.7958,,S,1,men
+501,死亡,3,"Calic, Mr. Petar",male,17,0,0,315086,8.6625,,S,1,men
+505,生存,1,"Maioni, Miss. Roberta",female,16,0,0,110152,86.5,B79,S,1,women
+509,死亡,3,"Olsen, Mr. Henry Margido",male,28,0,0,C 4001,22.525,,S,1,men
+510,生存,3,"Lang, Mr. Fang",male,26,0,0,1601,56.4958,,S,1,men
+511,生存,3,"Daly, Mr. Eugene Patrick",male,29,0,0,382651,7.75,,Q,1,men
+515,死亡,3,"Coleff, Mr. Satio",male,24,0,0,349209,7.4958,,S,1,men
+520,死亡,3,"Pavlovic, Mr. Stefo",male,32,0,0,349242,7.8958,,S,1,men
+521,生存,1,"Perreault, Miss. Anne",female,30,0,0,12749,93.5,B73,S,1,women
+522,死亡,3,"Vovk, Mr. Janko",male,22,0,0,349252,7.8958,,S,1,men
+524,生存,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,0,1,111361,57.9792,B18,C,1,women
+526,死亡,3,"Farrell, Mr. James",male,40.5,0,0,367232,7.75,,Q,1,men
+529,死亡,3,"Salonen, Mr. Johan Werner",male,39,0,0,3101296,7.925,,S,1,men
+533,死亡,3,"Elias, Mr. Joseph Jr",male,17,1,1,2690,7.2292,,C,1,men
+538,生存,1,"LeRoy, Miss. Bertha",female,30,0,0,PC 17761,106.425,,C,1,women
+540,生存,1,"Frolicher, Miss. Hedwig Margaritha",female,22,0,2,13568,49.5,B39,C,1,women
+541,生存,1,"Crosby, Miss. Harriet R",female,36,0,2,WE/P 5735,71,B22,S,1,women
+549,死亡,3,"Goldsmith, Mr. Frank John",male,33,1,1,363291,20.525,,S,1,men
+554,生存,3,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,0,0,2620,7.225,,C,1,men
+557,生存,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,1,0,11755,39.6,A16,C,1,women
+559,生存,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,1,1,110413,79.65,E67,S,1,women
+562,死亡,3,"Sivic, Mr. Husein",male,40,0,0,349251,7.8958,,S,1,men
+566,死亡,3,"Davies, Mr. Alfred J",male,24,2,0,A/4 48871,24.15,,S,1,men
+567,死亡,3,"Stoytcheff, Mr. Ilia",male,19,0,0,349205,7.8958,,S,1,men
+570,生存,3,"Jonsson, Mr. Carl",male,32,0,0,350417,7.8542,,S,1,men
+575,死亡,3,"Rush, Mr. Alfred George John",male,16,0,0,A/4. 20589,8.05,,S,1,men
+576,死亡,3,"Patchett, Mr. George",male,19,0,0,358585,14.5,,S,1,men
+578,生存,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,1,0,13507,55.9,E44,S,1,women
+580,生存,3,"Jussila, Mr. Eiriik",male,32,0,0,STON/O 2. 3101286,7.925,,S,1,men
+582,生存,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,1,1,17421,110.8833,C68,C,1,women
+586,生存,1,"Taussig, Miss. Ruth",female,18,0,2,110413,79.65,E68,S,1,women
+589,死亡,3,"Gilinski, Mr. Eliezer",male,22,0,0,14973,8.05,,S,1,men
+591,死亡,3,"Rintamaki, Mr. Matti",male,35,0,0,STON/O 2. 3101273,7.125,,S,1,men
+593,死亡,3,"Elsbury, Mr. William James",male,47,0,0,A/5 3902,7.25,,S,1,men
+596,死亡,3,"Van Impe, Mr. Jean Baptiste",male,36,1,1,345773,24.15,,S,1,men
+598,死亡,3,"Johnson, Mr. Alfred",male,49,0,0,LINE,0,,S,1,men
+604,死亡,3,"Torber, Mr. Ernst William",male,44,0,0,364511,8.05,,S,1,men
+606,死亡,3,"Lindell, Mr. Edvard Bengtsson",male,36,1,0,349910,15.55,,S,1,men
+607,死亡,3,"Karaic, Mr. Milan",male,30,0,0,349246,7.8958,,S,1,men
+610,生存,1,"Shutes, Miss. Elizabeth W",female,40,0,0,PC 17582,153.4625,C125,S,1,women
+615,死亡,3,"Brocklebank, Mr. William Alfred",male,35,0,0,364512,8.05,,S,1,men
+617,死亡,3,"Danbom, Mr. Ernst Gilbert",male,34,1,1,347080,14.4,,S,1,men
+621,死亡,3,"Yasbeck, Mr. Antoni",male,27,1,0,2659,14.4542,,C,1,men
+623,生存,3,"Nakid, Mr. Sahid",male,20,1,1,2653,15.7417,,C,1,men
+624,死亡,3,"Hansen, Mr. Henry Damsgaard",male,21,0,0,350029,7.8542,,S,1,men
+625,死亡,3,"Bowen, Mr. David John ""Dai""",male,21,0,0,54636,16.1,,S,1,men
+628,生存,1,"Longley, Miss. Gretchen Fiske",female,21,0,0,13502,77.9583,D9,S,1,women
+629,死亡,3,"Bostandyeff, Mr. Guentcho",male,26,0,0,349224,7.8958,,S,1,men
+637,死亡,3,"Leinonen, Mr. Antti Gustaf",male,32,0,0,STON/O 2. 3101292,7.925,,S,1,men
+641,死亡,3,"Jensen, Mr. Hans Peder",male,20,0,0,350050,7.8542,,S,1,men
+642,生存,1,"Sagesser, Mlle. Emma",female,24,0,0,PC 17477,69.3,B35,C,1,women
+647,死亡,3,"Cor, Mr. Liudevit",male,19,0,0,349231,7.8958,,S,1,men
+653,死亡,3,"Kalvik, Mr. Johannes Halvorsen",male,21,0,0,8475,8.4333,,S,1,men
+662,死亡,3,"Badt, Mr. Mohamed",male,40,0,0,2623,7.225,,C,1,men
+664,死亡,3,"Coleff, Mr. Peju",male,36,0,0,349210,7.4958,,S,1,men
+665,生存,3,"Lindqvist, Mr. Eino William",male,20,1,0,STON/O 2. 3101285,7.925,,S,1,men
+669,死亡,3,"Cook, Mr. Jacob",male,43,0,0,A/5 3536,8.05,,S,1,men
+676,死亡,3,"Edvardsson, Mr. Gustaf Hjalmar",male,18,0,0,349912,7.775,,S,1,men
+677,死亡,3,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,342826,8.05,,S,1,men
+683,死亡,3,"Olsvigen, Mr. Thor Anderson",male,20,0,0,6563,9.225,,S,1,men
+684,死亡,3,"Goodwin, Mr. Charles Edward",male,14,5,2,CA 2144,46.9,,S,1,men
+687,死亡,3,"Panula, Mr. Jaako Arnold",male,14,4,1,3101295,39.6875,,S,1,men
+688,死亡,3,"Dakic, Mr. Branko",male,19,0,0,349228,10.1708,,S,1,men
+689,死亡,3,"Fischer, Mr. Eberhard Thelander",male,18,0,0,350036,7.7958,,S,1,men
+690,生存,1,"Madill, Miss. Georgette Alexandra",female,15,0,1,24160,211.3375,B5,S,1,women
+694,死亡,3,"Saad, Mr. Khalil",male,25,0,0,2672,7.225,,C,1,men
+697,死亡,3,"Kelly, Mr. James",male,44,0,0,363592,8.05,,S,1,men
+700,死亡,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,0,0,348121,7.65,F G63,S,1,men
+701,生存,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,1,0,PC 17757,227.525,C62 C64,C,1,women
+704,死亡,3,"Gallagher, Mr. Martin",male,25,0,0,36864,7.7417,,Q,1,men
+705,死亡,3,"Hansen, Mr. Henrik Juul",male,26,1,0,350025,7.8542,,S,1,men
+709,生存,1,"Cleaver, Miss. Alice",female,22,0,0,113781,151.55,,S,1,women
+711,生存,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,0,0,PC 17482,49.5042,C90,C,1,women
+714,死亡,3,"Larsson, Mr. August Viktor",male,29,0,0,7545,9.4833,,S,1,men
+716,死亡,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,0,0,348124,7.65,F G73,S,1,men
+717,生存,1,"Endres, Miss. Caroline Louise",female,38,0,0,PC 17757,227.525,C45,C,1,women
+720,死亡,3,"Johnson, Mr. Malkolm Joackim",male,33,0,0,347062,7.775,,S,1,men
+722,死亡,3,"Jensen, Mr. Svend Lauritz",male,17,1,0,350048,7.0542,,S,1,men
+726,死亡,3,"Oreskovic, Mr. Luka",male,20,0,0,315094,8.6625,,S,1,men
+731,生存,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,24160,211.3375,B5,S,1,women
+736,死亡,3,"Williams, Mr. Leslie",male,28.5,0,0,54636,16.1,,S,1,men
+743,生存,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,2,2,PC 17608,262.375,B57 B59 B63 B66,C,1,women
+744,死亡,3,"McNamee, Mr. Neal",male,24,1,0,376566,16.1,,S,1,men
+745,生存,3,"Stranden, Mr. Juho",male,31,0,0,STON/O 2. 3101288,7.925,,S,1,men
+747,死亡,3,"Abbott, Mr. Rossmore Edward",male,16,1,1,C.A. 2673,20.25,,S,1,men
+750,死亡,3,"Connaghton, Mr. Michael",male,31,0,0,335097,7.75,,Q,1,men
+753,死亡,3,"Vande Velde, Mr. Johannes Joseph",male,33,0,0,345780,9.5,,S,1,men
+754,死亡,3,"Jonkoff, Mr. Lalio",male,23,0,0,349204,7.8958,,S,1,men
+757,死亡,3,"Carlsson, Mr. August Sigfrid",male,28,0,0,350042,7.7958,,S,1,men
+759,死亡,3,"Theobald, Mr. Thomas Leonard",male,34,0,0,363294,8.05,,S,1,men
+760,生存,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,0,0,110152,86.5,B77,S,1,women
+762,死亡,3,"Nirva, Mr. Iisakki Antino Aijo",male,41,0,0,SOTON/O2 3101272,7.125,,S,1,men
+763,生存,3,"Barah, Mr. Hanna Assi",male,20,0,0,2663,7.2292,,C,1,men
+764,生存,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,1,2,113760,120,B96 B98,S,1,women
+765,死亡,3,"Eklund, Mr. Hans Linus",male,16,0,0,347074,7.775,,S,1,men
+770,死亡,3,"Gronnestad, Mr. Daniel Danielsen",male,32,0,0,8471,8.3625,,S,1,men
+771,死亡,3,"Lievens, Mr. Rene Aime",male,24,0,0,345781,9.5,,S,1,men
+772,死亡,3,"Jensen, Mr. Niels Peder",male,48,0,0,350047,7.8542,,S,1,men
+776,死亡,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,0,0,347078,7.75,,S,1,men
+780,生存,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,0,1,24160,211.3375,B3,S,1,women
+782,生存,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,1,0,17474,57,B20,S,1,women
+785,死亡,3,"Ali, Mr. William",male,25,0,0,SOTON/O.Q. 3101312,7.05,,S,1,men
+786,死亡,3,"Harmer, Mr. Abraham (David Lishin)",male,25,0,0,374887,7.25,,S,1,men
+795,死亡,3,"Dantcheff, Mr. Ristiu",male,25,0,0,349203,7.8958,,S,1,men
+797,生存,1,"Leader, Dr. Alice (Farnham)",female,49,0,0,17465,25.9292,D17,S,1,women
+799,死亡,3,"Ibrahim Shawah, Mr. Yousseff",male,30,0,0,2685,7.2292,,C,1,men
+805,生存,3,"Hedman, Mr. Oskar Arvid",male,27,0,0,347089,6.975,,S,1,men
+806,死亡,3,"Johansson, Mr. Karl Johan",male,31,0,0,347063,7.775,,S,1,men
+810,生存,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,1,0,113806,53.1,E8,S,1,women
+811,死亡,3,"Alexander, Mr. William",male,26,0,0,3474,7.8875,,S,1,men
+812,死亡,3,"Lester, Mr. James",male,39,0,0,A/4 48871,24.15,,S,1,men
+815,死亡,3,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,S,1,men
+819,死亡,3,"Holm, Mr. John Fredrik Alexander",male,43,0,0,C 7075,6.45,,S,1,men
+822,生存,3,"Lulic, Mr. Nikola",male,27,0,0,315098,8.6625,,S,1,men
+834,死亡,3,"Augustsson, Mr. Albert",male,23,0,0,347468,7.8542,,S,1,men
+835,死亡,3,"Allum, Mr. Owen George",male,18,0,0,2223,8.3,,S,1,men
+836,生存,1,"Compton, Miss. Sara Rebecca",female,39,1,1,PC 17756,83.1583,E49,C,1,women
+837,死亡,3,"Pasic, Mr. Jakob",male,21,0,0,315097,8.6625,,S,1,men
+839,生存,3,"Chip, Mr. Chang",male,32,0,0,1601,56.4958,,S,1,men
+841,死亡,3,"Alhomaki, Mr. Ilmari Rudolf",male,20,0,0,SOTON/O2 3101287,7.925,,S,1,men
+843,生存,1,"Serepeca, Miss. Augusta",female,30,0,0,113798,31,,C,1,women
+844,死亡,3,"Lemberopolous, Mr. Peter L",male,34.5,0,0,2683,6.4375,,C,1,men
+845,死亡,3,"Culumovic, Mr. Jeso",male,17,0,0,315090,8.6625,,S,1,men
+846,死亡,3,"Abbing, Mr. Anthony",male,42,0,0,C.A. 5547,7.55,,S,1,men
+848,死亡,3,"Markoff, Mr. Marin",male,35,0,0,349213,7.8958,,C,1,men
+854,生存,1,"Lines, Miss. Mary Conover",female,16,0,1,PC 17592,39.4,D28,S,1,women
+857,生存,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,1,1,36928,164.8667,,S,1,women
+861,死亡,3,"Hansen, Mr. Claus Peter",male,41,2,0,350026,14.1083,,S,1,men
+863,生存,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,0,0,17466,25.9292,D17,S,1,women
+871,死亡,3,"Balkic, Mr. Cerin",male,26,0,0,349248,7.8958,,S,1,men
+872,生存,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,1,1,11751,52.5542,D35,S,1,women
+874,死亡,3,"Vander Cruyssen, Mr. Victor",male,47,0,0,345765,9,,S,1,men
+877,死亡,3,"Gustafsson, Mr. Alfred Ossian",male,20,0,0,7534,9.8458,,S,1,men
+878,死亡,3,"Petroff, Mr. Nedelio",male,19,0,0,349212,7.8958,,S,1,men
+882,死亡,3,"Markun, Mr. Johann",male,33,0,0,349257,7.8958,,S,1,men
+885,死亡,3,"Sutehall, Mr. Henry Jr",male,25,0,0,SOTON/OQ 392076,7.05,,S,1,men
+888,生存,1,"Graham, Miss. Margaret Edith",female,19,0,0,112053,30,B42,S,1,women
+891,死亡,3,"Dooley, Mr. Patrick",male,32,0,0,370376,7.75,,Q,1,men

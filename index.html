@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./lib/d3.v4.3.0.js"></script>
+  <script src="./dist/dimple.v2.3.0.js"></script>
+    <style>
+    h1 {
+        text-align: center;
+        color: rgb(30,144,255);
+      }
+
+    h2 {
+    	width:600px;
+    	font-size:3px;
+    	margin-left: auto;
+		margin-right: auto;
+        text-align: center;
+        color:rgb(186,85,211);
+        background-color:rgb(220,220,220);
+      }
+
+    div.years_buttons {
+        background-color: rgb(30,144,255);
+        background-size:8px 6px;
+        text-align: center;
+        padding: 3px;
+        margin: 7px;
+      }
+    h3 {
+    	color: rgb(30,144,255);
+    	font-size:25px;
+    }
+    button{
+    	background-color:rgb(30,144,255);
+	    border: none;
+	    color: white;
+	    padding: 10px 16px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 10px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+    }
+    h4 {
+    	color: rgb(30,144,255);
+    	font-size:20px;
+    }
+
+    h5 {
+    	color: rgb(30,144,255);
+    	font-size:20px;
+    }
+
+  </style>
+    
+  </head>
+<body>
+  <script type="text/javascript">
+    var body = d3.select("body")
+			    	.append("div")
+			    	.attr("style", "text-align:center");
+
+	body.append("h1").text("“泰坦尼克”逃生真相：妇女儿童优先只是个传说?");
+	body.append("h2").text("“泰坦尼克号”电影中，展示了人性的多样性。让人遗憾的是，“妇女儿童优先”的动人救生口号并非完全属实，获得优先权的主要是头等舱。统计数据表明，头等舱男乘客的生还率比三等舱中儿童的生还率还稍高一点与三等舱中的妇女生还率一致。")
+
+
+	var first = body.append("div")
+					.append("button")
+					.text("不同人群整体生还几率对比")
+					.attr("type", "button")
+					.attr("class", "button");
+
+
+	first.on("click", function(){
+		d3.selectAll("body div svg").remove();
+		d3.selectAll("body div h3").remove();
+		d3.selectAll("body div h4").remove();
+		d3.selectAll("body div h5").remove();
+
+		var title = d3.select("body div")
+					  .append("h3")
+					  .text("不同人群的生还几率对比图");
+
+		var svg = dimple.newSvg("body div", 700, 500);
+	    d3.csv("titanic_clean7.csv", function (data) {
+	      var myChart = new dimple.chart(svg, data);
+	      //myChart.setBounds(60, 30, 510, 305)
+
+	      var x = myChart.addCategoryAxis("x", "Level");
+	      x.addOrderRule(["children", "women", "men", "old people"]);
+	      myChart.addPctAxis("y", "Number");
+	      myChart.addSeries("Survived", dimple.plot.bar);
+	      myChart.addLegend(60, 10, 510, 20, "right");
+	      myChart.draw();
+	    });
+
+	    d3.select("div").append("h4").text("从整体上来看，妇女和儿童的生还几率的确远大于男人");
+
+
+	})
+
+
+	
+	var second = body.append("div")
+					 .append("button")
+					 .text("不同船舱等级的生还率总体对比")
+					 .attr("class", "years_buttons")
+					 .attr("type", "button");
+
+	second.on("click", function(){
+
+		d3.selectAll("body div h3").remove();
+		d3.selectAll("body div svg").remove();
+		d3.selectAll("body div h4").remove();
+		d3.selectAll("body div h5").remove();
+
+		var title = d3.select("body div")
+					  .append("h3")
+					  .text("不同船舱等级的生还率总体对比");
+
+		var svg = dimple.newSvg("body div", 700, 500);
+	    d3.csv("titanic_clean2.csv", function (data) {
+	      var myChart = new dimple.chart(svg, data);
+	      //myChart.setBounds(60, 30, 510, 305)
+	      var x = myChart.addCategoryAxis("x", "Pclass");
+	      x.addOrderRule("Pclass");
+	      myChart.addPctAxis("y", "Number");
+	      myChart.addSeries("Survived", dimple.plot.bar);
+	      myChart.addLegend(60, 10, 510, 20, "right");
+	      myChart.draw();
+	    });
+
+	    d3.select("div").append("h4").text("从图像上来看，乘客的生还几率根据其船舱等级依次降低。");
+	})	
+
+	var third = body.append("div")
+					 .append("button")
+					 .text("不同船舱等级以及不同人群的生还率对比")
+					 .attr("class", "button")
+					 .attr("type", "button");
+	third.on("click", function(){
+
+		d3.selectAll("body div h3").remove();
+		d3.selectAll("body div svg").remove();
+		d3.selectAll("body div h4").remove();
+		d3.selectAll("body div h5").remove();
+
+		var title = d3.select("body div")
+					  .append("h3")
+					  .text("不同船舱等级以及不同人群的生还率对比");
+
+		var svg = dimple.newSvg("body div", 700, 500);
+	    d3.csv("titanic_clean2.csv", function (data) {
+	      var myChart = new dimple.chart(svg, data);
+	      //myChart.setBounds(60, 30, 510, 305)
+	      var x = myChart.addCategoryAxis("x", ["Pclass", "Level"]);
+	      x.addOrderRule("Pclass");
+	      myChart.addMeasureAxis("y", "Number");
+	      myChart.addSeries("Survived", dimple.plot.bar);
+	      myChart.addLegend(60, 10, 510, 20, "right");
+	      myChart.draw();
+	    });
+	    d3.select("div").append("h4").text("从图像上来看，头等舱的不同人群生还几率相对于其他等级的船舱基本都要高。");
+	})
+
+	var fifth = body.append("div")
+					 .append("button")
+					 .text("头等舱的男人生存比跟三等舱的女人和儿童对比")
+					 .attr("class", "button")
+					 .attr("type", "button");
+	fifth.on("click", function(){
+
+		d3.selectAll("body div h3").remove();
+		d3.selectAll("body div svg").remove();
+		d3.selectAll("body div h4").remove();
+		d3.selectAll("body div h5").remove();
+
+		var title = d3.select("body div")
+					  .append("h3")
+					  .text("头等舱的男人生存比跟三等舱的女人和儿童对比");
+
+		var svg = dimple.newSvg("body div", 700, 500);
+	    d3.csv("titanic_clean5.csv", function (data) {
+	      var myChart = new dimple.chart(svg, data);
+	      //myChart.setBounds(60, 30, 510, 305)
+	      var x = myChart.addCategoryAxis("x", ["Pclass", "Level"]);
+	      x.addOrderRule("Pclass");
+	      myChart.addPctAxis("y", "Number");
+	      myChart.addSeries("Survived", dimple.plot.bar);
+	      myChart.addLegend(60, 10, 510, 20, "right");
+	      myChart.draw();
+	    });
+	    d3.select("div").append("h4").text("从图像上来看，头等舱男乘客的生还率比三等舱中儿童的生还率还稍高一点与三等舱中的妇女生还率几乎一致。");
+
+	})
+
+	var fouth = body.append("div")
+					 .append("button")
+					 .text("头等舱的女人生存比跟三等舱的男人对比")
+					 .attr("class", "button")
+					 .attr("type", "button");
+	fouth.on("click", function(){
+
+		d3.selectAll("body div svg").remove();
+		d3.selectAll("body div h3").remove();
+		d3.selectAll("body div h4").remove();
+		d3.selectAll("body div h5").remove();
+
+		var title = d3.select("body div")
+					  .append("h3")
+					  .text("头等舱的女人生存比跟三等舱的男人对比");
+
+		var svg = dimple.newSvg("body div", 700, 500);
+	    d3.csv("titanic_clean3.csv", function (data) {
+	      var myChart = new dimple.chart(svg, data);
+	      //myChart.setBounds(60, 30, 510, 305)
+	      var x = myChart.addCategoryAxis("x", ["Pclass", "Level"]);
+	      x.addOrderRule("Pclass");
+	      myChart.addPctAxis("y", "Number");
+	      myChart.addSeries("Survived", dimple.plot.bar);
+	      myChart.addLegend(60, 10, 510, 20, "right");
+	      myChart.draw();
+	    });
+	    d3.select("div").append("h4").text("从图像上来看，可以看出两者巨大的悬殊，头等舱几乎所有的妇女都生还了，而三等舱只有14%的男人能够生还。");
+	    d3.select("div").append("h5").text("从统计数据表明，在泰坦尼克号上执行口号这样表述可能更准确一些：‘头等舱和二等舱的妇女和儿童优先’。");
+
+	})
+
+
+  </script>
+</body>
+</html>
