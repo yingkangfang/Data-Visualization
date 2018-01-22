@@ -7,12 +7,13 @@
     <style>
     h1 {
         text-align: center;
+        text-shadow: 5px 5px 5px #7fffd4;
         color: rgb(30,144,255);
       }
 
     h2 {
     	width:600px;
-    	font-size:3px;
+    	font-size:8px;
     	margin-left: auto;
 		margin-right: auto;
         text-align: center;
@@ -31,27 +32,40 @@
     	color: rgb(30,144,255);
     	font-size:25px;
     }
-    button{
-    	background-color:rgb(30,144,255);
+    .button{
+    	background-color: #4CAF50; /* Green */
 	    border: none;
 	    color: white;
 	    padding: 10px 16px;
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 10px;
+	    font-size: 12px;
 	    margin: 4px 2px;
+	    -webkit-transition-duration: 0.4s; /* Safari */
+	    transition-duration: 0.4s;
 	    cursor: pointer;
     }
     h4 {
     	color: rgb(30,144,255);
-    	font-size:20px;
+    	font-size:18px;
     }
 
     h5 {
-    	color: rgb(30,144,255);
+    	color: rgb(255,20,147);
     	font-size:20px;
     }
+	.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+	}
+
+	.button1:hover {
+	    background-color: #008CBA;
+	    color: white;
+	}
+
 
   </style>
     
@@ -69,8 +83,8 @@
 	var first = body.append("div")
 					.append("button")
 					.text("不同人群整体生还几率对比")
-					.attr("type", "button")
-					.attr("class", "button");
+					//.attr("type", "button")
+					.attr("class", "button button1");
 
 
 	first.on("click", function(){
@@ -129,7 +143,7 @@
 	var second = body.append("div")
 					 .append("button")
 					 .text("不同船舱等级的生还率总体对比")
-					 .attr("class", "years_buttons")
+					 .attr("class", "button button1")
 					 .attr("type", "button");
 
 	second.on("click", function(){
@@ -184,7 +198,7 @@
 	var third = body.append("div")
 					 .append("button")
 					 .text("不同船舱等级以及不同人群的生还率对比")
-					 .attr("class", "button")
+					 .attr("class", "button button1")
 					 .attr("type", "button");
 	third.on("click", function(){
 
@@ -214,7 +228,7 @@
 	var fifth = body.append("div")
 					 .append("button")
 					 .text("头等舱的男人生存比跟三等舱的女人和儿童对比")
-					 .attr("class", "button")
+					 .attr("class", "button button1")
 					 .attr("type", "button");
 	fifth.on("click", function(){
 
@@ -274,7 +288,7 @@
 	var fouth = body.append("div")
 					 .append("button")
 					 .text("头等舱的女人生存比跟三等舱的男人对比")
-					 .attr("class", "button")
+					 .attr("class", "button button1")
 					 .attr("type", "button");
 	fouth.on("click", function(){
 
